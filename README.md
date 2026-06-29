@@ -1,11 +1,8 @@
-# pdf-comparison-tool
-Effortlessly identify differences between two PDF drawings.
-Are you tired of manually comparing long PDF documents to spot changes? This tool is designed to save you time and eliminate errors by visually highlighting every modification between your files.
+# PDF Comparison Tool: Effortlessly Identify Document Revisions
 
-## 🚀 Why You Need This Tool
-- **Instant Visual Clarity**: No more squinting at text. We use pixel-level image analysis to color-code your differences—**Blue** for Original-only content and **Pink** for Revised-only content.
-- **Handle Large Documents with Ease**: Whether you are working with a few pages or a massive document, our tool efficiently processes and compares every page, ensuring nothing is overlooked.
-- **Simple & Reliable**: Designed for professionals who need to confirm edits quickly. Just drag, drop, and compare.
+This program identifies differences between two PDF files using image analysis technology by comparing pixel values. Save your time and eliminate errors by visually highlighting every modification between your files.
+
+[Project Page: https://k-park-labs.itch.io/pdf-comparison-tool](https://k-park-labs.itch.io/pdf-comparison-tool)
 
 ## ✨ Key Features
 - **Visual Diff**: Clearly see what was added, removed, or changed.
@@ -13,20 +10,35 @@ Are you tired of manually comparing long PDF documents to spot changes? This too
 - **Wide Compatibility**: Works seamlessly with various PDF documents, providing consistent results every time.
 
 ## 📖 How to Use
-1. Run the `PDF_Compare.exe`.
-2. Simply **drag and drop** the two PDF files you wish to compare into the window.
-3. Observe the highlighted differences and use the "V" marks to jump to each change.
+1. Run `PDF_Compare.exe`.
+2. Drag and drop your **Original.pdf** and **Revised.pdf** files into the designated areas.
+3. Click the **"Compare Differences"** button.
+4. When the **"Result PDF Save Location"** dialog appears, select your desired folder to save the file.
+5. The progress bar will indicate the status. Once complete, click **"OK"** on the success dialog.
+6. Open the saved PDF to view the final comparison results.
+
+## ⚠️ Important Notes
+- **File Requirements**: For accurate comparison, both the Original and Revised PDF files must have the same specifications (size and resolution).
+- **Scanned Documents**: Precision may be limited if the input files are scanned documents.
+
+## 🎨 Result Visualization
+The comparison results are color-coded for easy identification:
+- **Common Areas**: Displayed in gray.
+- **Original Only**: Displayed in blue.
+- **Revised Only**: Displayed in pink.
+- **Key Differences**: Major changes are highlighted with a "V" mark.
 
 ## 📸 Preview
-To help you understand how our tool highlights differences, take a look at the examples below:
-
-**1. Main Interface**
+### Main Interface
 ![Main Interface](Documentations/Main.png)
 
-**2. Comparison Results**
-You can clearly distinguish modifications with color-coding:
-- **Blue**: Original-only content
-- **Pink**: Revised-only content
-
+### Comparison Results
 ![Result Example 1](Documentations/Comparison_Result_1.png)
 ![Result Example 2](Documentations/Comparison_Result_2.png)
+
+## ★ Support, Communication & Donation
+If you found this tool helpful, your support is greatly appreciated!
+- **Support & Feedback**: For bug reports or feature requests, please leave a comment on the project page or contact me through the itch.io messaging system.
+- **Donation**: You can provide a donation through the "Donate" button on the project's [itch.io page](https://k-park-labs.itch.io/pdf-comparison-tool).
+
+Thank you for using this tool!
